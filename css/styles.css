@@ -53,3 +53,9 @@
   border: 0.25vmin solid white;
   border-radius: 12px;
 }
+
+.food {
+  background: linear-gradient(red, purple);
+  border: 0.25vmin solid black;
+  border-radius: 8px;
+}
