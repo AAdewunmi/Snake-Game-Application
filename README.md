@@ -18,10 +18,14 @@ Snake Game Application
 
 ## 6. Adapted from: 
 
-UDEMY: 
+UDEMY Course Name: 
 
-Project Name: 
+Build 18 Real World JavaScript Development Projects Bootcamp
 
-Created by: 
+Section 7: Code a Snake Game from Scratch in 
+Javacript 
 
-Last updated: 
+Created by: Pianalytix
+
+URL: https://www.udemy.com/course/build-real-world-javascript-development-projects/
+
