@@ -26,3 +26,22 @@ function main(ctime) {
   lastPaintTime = ctime;
   gameEngine();
 }
+
+function isCollide(snake) {
+  //if snake bumps into itself
+  for (let index = 1; index < snakeArr.length; index++) {
+    if (snake[index].x === snake[0].x && snake[index].y === snake[0].y) {
+      return true;
+    }
+  }
+
+  //if snake collides with the boundary of the board
+  if (
+    snake[0].x >= 18 ||
+    (snake[0].x <= 0 && snake[0].y >= 18) ||
+    snake[0].y <= 0
+  ) {
+    return true;
+  }
+  return false;
+}
